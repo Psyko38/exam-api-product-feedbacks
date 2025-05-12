@@ -31,7 +31,6 @@ function print(data) {
 	mainBody.appendChild(wrappers);
 	NumberSug.innerText = data.length;
 	for (let i = 0; i < data.length; i++) {
-		console.log(data[i]);
 		Creat(
 			data[i].votes,
 			data[i].title,
